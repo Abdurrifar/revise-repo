@@ -1,9 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1 {
     font-size: 50px;
+}
+
+p {
+    text-align: justify;
 }
 
 span {
@@ -12,11 +17,13 @@ span {
 
 section {
     display: flex;
+
 }
 
 .half-width {
     width: 50%;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .half-width img {
@@ -29,4 +36,10 @@ section {
     padding: 10px 40px;
     border-radius: 3px;
     background-image: linear-gradient(orange, tomato);
+}
+
+
+.back-bannerk {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
